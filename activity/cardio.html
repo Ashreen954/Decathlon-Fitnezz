@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardio Blast - D-Fitnezz</title>
+  <link rel="stylesheet" href="./cardio.css">
+</head>
+<body>
+  <header>
+    <h1>Cardio Blast</h1>
+  </header>
+
+  <section class="course-details">
+    <div class="video">
+      <!-- Embed the video related to Cardio Blast -->
+      <iframe width="700" height="330" src="https://www.youtube.com/embed/ZllXIKITzfg?si=SntC4TZzk_2OJTYv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     
+    </div>
+    <button class="add-note-button" id="about-link">Decathlon Equipment Used</button>
+    <button class="add-note-button" id="add-note-button">Add Notes</button>
+    <br>
+    <a href="https://www.decathlon.in/"><button class="add-note-button" id="add-note-button">Buy Equipment</button></a>
+
+    <div id="about-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Equipment Used</h2>
+            <p>Treadmill</p>
+            <p>Exercise Bike</p>
+            <p>Jump Rope</p>
+            <p>Rowing Machine</p>
+            <p>Fitness Mat</p>
+        </div>
+    </div>
+    <div id="notes-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add Notes</h2>
+            <textarea id="notes-textarea" rows="6" cols="50" placeholder="Write your notes here..."></textarea>
+            <button id="save-notes-button">Save Notes</button>
+        </div>
+    </div>
+  </section>
+
+    
+  <footer>
+    <p>&copy; 2023 D-Fitnezz | All rights reserved.</p>
+  </footer>
+  <script src="./cardio.js"></script>
+</body>
+</html>

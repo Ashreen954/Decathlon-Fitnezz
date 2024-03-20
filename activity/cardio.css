@@ -1,0 +1,134 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007ACC;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* margin-top: 500px; */
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .card h2 {
+    color: #007ACC;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #007ACC;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #005faa;
+  }
+  
+  /* Course Details Page */
+  .course-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .video {
+    margin-bottom: 20px;
+  }
+  
+  .add-note-button {
+    background-color: #007ACC;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    margin-right: 100px;
+  }
+  
+  .add-note-button:hover {
+    background-color: #005faa;
+  }
+  #save-notes-button{
+    background-color: #007ACC;
+    color: white;
+    border: none;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+     width: 500px;
+    height: 300px;
+    /* overflow: auto; */
+    left: 400px;
+    top:350px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    font-size: 1rem;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
