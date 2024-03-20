@@ -22,14 +22,14 @@
 
     <header class="header">
 
-        <a href="#" class="logo"><span>D</span>-FIT <span>NEZZ</span></a>
+        <a href="./index.html" class="logo"><span>D</span>-FIT <span>NEZZ</span></a>
 
         <nav class="navbar">
-            <a href="#">home</a>
-            <a href="#">about</a>
-            <a href="#">services</a>
-            <a href="#">news</a>
-            <a href="#">contact us</a>
+            <a href="./index.html">home</a>
+            <a href="#" id="about-link">about</a>
+            <a href="#hello">services</a>
+            <a href="./news.html">news</a>
+            <a href="#cont">contact us</a>
         </nav>
 
         <div class="icons">
@@ -40,7 +40,13 @@
             <a href="#" class="btn">Login</a>
             <div id="menu-btn" class="fas fa-bars"></div>
         </div>
-
+        <div id="about-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>About Us</h2>
+                <p>Welcome to D-Fitnezz, your ultimate fitness destination! We seamlessly integrate community engagement, progress tracking, and personalized nutrition guidance to empower you in your fitness journey. Participate in dynamic community challenges, track your progress, and enjoy healthy competition on our leaderboard. Access curated fitness courses and personalized nutrition recommendations tailored to your goals. At D-Fitnezz, we're more than just a fitness platform—we're a supportive community dedicated to holistic well-being. Join us and embark on a transformative journey towards health, vitality, and fulfillment. Welcome to D-Fitnezz, where fitness meets community!</p>
+            </div>
+        </div>
     </header>
 
     <!-- header-->
@@ -58,7 +64,7 @@
                         <h3>join fitnezz today</h3>
                         <p>"Transform Your Body, Elevate Your Mind – Unleash the Best Version of You with Our Fitness Revolution!"</p>
                         <div class="button">
-                            <a href="#" class="btn btn-1">get started</a>
+                            <a href="#hello" class="btn btn-1">get started</a>
                         </div>
                     </div>
                 </div>
@@ -68,7 +74,7 @@
                         <h3>health is wealth</h3>
                         <p>"Transform Your Body, Elevate Your Mind – Unleash the Best Version of You with Our Fitness Revolution!"</p>
                         <div class="button">
-                            <a href="#" class="btn btn-1">get started</a>
+                            <a href="#hello" class="btn btn-1">get started</a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +90,7 @@
     <!-- featured section starts  -->
     
 
-    <section class="feature">
+    <section id="hello" class="feature">
 
         <h1 class="heading"> CHALLENGE <span>Central</span></h1>
 
@@ -143,12 +149,12 @@
 
             <div class="box">
                 <div class="content">
-                    <h3>HIIT Workshop with [Instructor Name]</h3>
-                    <p>Join renowned fitness instructor [Instructor Name] for an intense HIIT workshop. Get ready to sweat and burn calories!</p>
+                    <h3>HIIT Workshop with Tracy Anderson</h3>
+                    <p>Join renowned fitness instructor Tracy Andersonfor an intense HIIT workshop. Get ready to sweat and burn calories!</p>
                 </div>
                 <div class="icons">
                     <span><i class="far fa-clock"></i> 5:30 PM</span>
-                    <span><i class="fad fa-calendar-alt"></i>December 22, 2023</span>
+                    <span><i class="fad fa-calendar-alt"></i>March 22, 2024</span>
                 </div>
                 <a href="#" class="btn">Register Now!</a>
             </div>            
@@ -163,7 +169,7 @@
                 </div>
                 <div class="icons">
                     <span><i class="far fa-clock"></i> 6:30 AM</span>
-                    <span><i class="fad fa-calendar-alt"></i>January 15, 2024</span>
+                    <span><i class="fad fa-calendar-alt"></i>March 30, 2024</span>
                 </div>
                 <a href="#" class="btn">Register Now!</a>
             </div>
@@ -179,7 +185,7 @@
                 </div>
                 <div class="icons">
                     <span><i class="far fa-clock"></i> 11:30 AM</span>
-                    <span><i class="fad fa-calendar-alt"></i>February 10, 2024</span>
+                    <span><i class="fad fa-calendar-alt"></i>April 10, 2024</span>
                 </div>
                 <a href="#" class="btn">Register Now!</a>
             </div>
@@ -194,7 +200,7 @@
                 </div>
                 <div class="icons">
                     <span><i class="far fa-clock"></i> 5:30 PM</span>
-                    <span><i class="fad fa-calendar-alt"></i>March 22, 2024</span>
+                    <span><i class="fad fa-calendar-alt"></i>May 22, 2024</span>
                 </div>
                 <a href="#" class="btn">Register Now!</a>
             </div>
@@ -240,7 +246,7 @@
                     <div class="content">
                         <h3>Yoga Fusion</h3>
                         <span><i class="fad fa-calendar-alt"></i>January 18, 2031</span>
-                        <p>Immerse yourself in the serene world of Yoga Fusion. This class blends various yoga styles to create a harmonious and holistic practice. Explore mindful movements, deep stretches, and find inner balance.</p>
+                        <p>Immerse yourself in the serene world of Yoga Fusion. This class blends various yoga styles to create a harmonious and holistic practice. Explore mindful movements, deep stretches, and find your inner balance.</p>
                     </div>
                     <div class="button">
                         <a href="#" class="btn">Read more</a>
@@ -303,7 +309,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div id="cont" class="box">
                 <h1>contact info</h1>
                 <div class="icons">
                     <a href="#"><i class="fas fa-map-marker-alt"></i>Mindspace, Hyderabad, India </a>
